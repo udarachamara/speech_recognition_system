@@ -1,0 +1,53 @@
+<!-- navbar starting here -->
+<nav class="navbar">
+    <div class="container">
+        <div class="d-flex">
+            <div class="brand">
+                noiser
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section style="background-color: #fff;height: 85vh;">
+    <div class="container">
+        <div class="flex">
+            <div class="wdth-100">
+
+                <div style="height: 100px;"></div>
+                <div [hidden]="isProcessComplete">
+                    <img src="../../../assets/img/ajax-loader.gif" width="100px" />
+                    Please wait Processing Audio File..
+                </div>
+                <div>
+                    <form [formGroup]="uniTextFormGroup">
+                        <div *ngIf="isProcessComplete && Success">
+                            <textarea formControlName="textCtrl" rows="10" ></textarea>
+                        </div>
+                        
+                    </form>
+                    
+
+                    <div *ngIf="isProcessComplete && !Success">
+                        <img src="../../../assets/img/empty-result_shot.png" width="500px" />
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- footer starting here -->
+<footer class="footer">
+    <div class="container">
+        <span class="copyright">
+            &copy; Copyright 2020 G-159-SLIIT
+        </span>
+    </div>
+</footer>

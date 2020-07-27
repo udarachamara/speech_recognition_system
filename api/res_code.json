@@ -1,0 +1,17 @@
+[
+  {
+    "code": 1001, "message": "Upload working..!"
+  },
+  {
+    "code": 1002, "message": "No file Or File Format Not Supported..!"
+  },
+  {
+    "code": 1003, "message": "No Post method..!"
+  },
+  {
+    "code": 1004, "message": "Request success..!"
+  },
+  {
+    "code": 1005, "message": "Request Failed..!"
+  }
+]

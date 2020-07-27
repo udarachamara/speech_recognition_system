@@ -1,0 +1,15 @@
+.pt-5{
+    padding: 5px;
+}
+
+.primary{
+    background: #107e84;
+    padding: 8px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.full-width{
+    width: 40%;
+}

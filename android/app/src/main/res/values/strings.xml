@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NOISER</string>
+
+    <string name="title_activity_starting">starting</string>
+    <string name="click_to_upload_file">Upload File</string>
+    <string name="welcome">Welcome</string>
+    <string name="bgimage">bgimage</string>
+</resources>

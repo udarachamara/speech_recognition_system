@@ -1,0 +1,47 @@
+<!-- navbar starting here -->
+<nav class="navbar">
+    <div class="container">
+        <div class="d-flex">
+            <div class="brand">
+                noiser
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section>
+    <div class="container">
+        <div class="flex">
+            <div class="wdth-50">
+                <div class="card">
+                    <div class="file-card">
+                        <input type="file" (change)="onChangeFileInput($event)"/>
+                    </div>
+                </div>
+
+                <div [hidden]="!isLoadAudioFile">
+                    <!-- <audio  controls src="{{audioSrc}}">
+                      Your browser does not support the audio element.
+                    </audio> -->
+                    <img src="../../../assets/img/ajax-loader.gif"  width="100px"/>
+                    Please wait Uploading file..
+                  </div>
+                
+            </div>
+            <div class="wdth-50 pt-5">
+                <img class="img-bg" src="../../../assets/img/bgi.png">
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<!-- footer starting here -->
+<footer class="footer">
+    <div class="container">
+        <span class="copyright">
+            &copy; Copyright 2020 G-159-SLIIT
+        </span>
+    </div>
+</footer>
